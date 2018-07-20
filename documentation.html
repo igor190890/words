@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            font-weight:bold;
+        }
+
+        body {
+            background-image: url(img/newspape64156156r_texture2826.jpg);
+        }
+
+        .icon-back img {
+            margin: 20px;
+            width: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrapp">
+    <ul>
+        <li>
+            Слова находяться в текстовом файле с расширением .txt
+        </li>
+        <li>
+            Файл должен быть сохранен в кодировке utf-8 (в Notepad++ Кодировки => Преобразовать в UTF-8)
+        </li>
+        <li>
+            Слова должны быть записаны в таком формате:
+            английское слово, пробел (один и больше), два тире(--), пробел (один и больше), перевод слова
+        </li>
+        <li>
+            Если в конце строки стоит две звездочки (**), слово считается выученным и отображаться не будет
+        </li>
+        <li>
+            В конце файла НЕ должно быть перевода каретки на новою строку,
+            потому что это будет считаться пустой (не валидной) строкой
+        </li>
+        <li>Если при открытии файла появляется хотя бы один алерт,
+            значит файл не валидный и программа не будет правильно работать
+        </li>
+        <li>
+            Минимальное количество строк в файле - две строки
+        </li>
+        <li>
+            Слова можно пропускать с помощью клавиши на клавиатуре стрелка вверх &uarr;,
+            или кнопки Skip
+        </li>
+        <li>
+            Приложение удобно использовать вместе с переводчиками такие как vimbox и другие,
+            которые устанавливаются как плагин в браузер chrome
+        </li>
+        <li>
+            Пример файла
+
+            <pre>
+                study -- учиться
+                make -- делать (создавать что то)
+                do -- делать (выполнять)**
+                offer -- предложение
+                seem -- казаться **
+                something -- что то
+                profit -- прибыль
+            </pre>
+        </li>
+    </ul>
+
+    <a href="index.html" class="icon-back" ><img src="img/back-arrow.svg"></a>
+
+</div>
+
+</body>
+</html>
